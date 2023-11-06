@@ -1,0 +1,84 @@
+*{
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Navigation Styles */
+
+header{
+    width: 1200px;
+    border: 1px solid;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 5px;
+}
+span{
+    color: rgb(249, 57, 127);
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-title img{
+    width: 80px;
+    height: 30px;   
+}
+.nav-menu{
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-menu a{
+    text-decoration: none;
+}
+.fa-brands{
+    margin-left: 5px;
+}
+.fa-solid{
+    margin-right: 5px;
+}
+.follow-us{
+    background-color: rgb(213, 201, 201);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+/* Header Part styles */
+.header-right img{
+    width: 450px;
+    height: 400px;
+}
+.header-left{
+    width: 600px;
+}
+.header{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+}
+.goat{
+    font-weight: bolder;   
+    font-size: 50px;
+    background-image: linear-gradient(to top, rgb(249, 57, 127) , blueviolet);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.header-btn, .go-rogue-btn{
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(249, 57, 127);
+    font-weight: 700;
+    font-size: 15px;
+}
+.go-rogue-btn{
+    background-color: #4EC5F7;
+}
