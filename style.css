@@ -4,7 +4,7 @@
 }
 /* Navigation Styles */
 
-header{
+header, main{
     width: 1200px;
     border: 1px solid;
     margin: 0 auto;
@@ -63,12 +63,16 @@ span{
     display: flex;
     justify-content: space-around;
 }
-.goat{
+.goat, .funny-videos{
     font-weight: bolder;   
     font-size: 50px;
     background-image: linear-gradient(to top, rgb(249, 57, 127) , blueviolet);
     color: transparent;
     -webkit-background-clip: text;
+}
+.funny-videos{
+    font-weight: 700;
+    font-size: 30px;
 }
 .header-btn, .go-rogue-btn{
     border: none;
@@ -82,3 +86,84 @@ span{
 .go-rogue-btn{
     background-color: #4EC5F7;
 }
+
+/* Main */
+.main-container-headings{
+    text-align: center;
+    margin-top: 30px;
+}
+.online-games{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 0px;
+}
+/* .online-games img{
+    width: 100%;
+} */
+.online-games img:hover{
+    border: 5px solid rgb(249, 57, 127);
+    border-radius: 25px;
+    animation-play-state: paused;
+}
+figcaption, .main-container-headings p{
+    font-size: 15px;
+}
+/* animation effects */
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.1);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+.animation {
+    animation: pulse 3s infinite;
+  }
+  &:hover {
+    animation-play-state: paused;
+  }
+/*   
+figure a{
+    position: absolute;
+    left: 400px;
+    bottom: 1200px;
+    
+}
+ .glightbox_video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+  
+  .outer_circle {
+    stroke-width: 3;
+    stroke-dasharray: 410; 
+     stroke-dashoffset: 0;
+    stroke-linecap: square;
+    transition: all .4s ease-out;
+  }
+  
+  .glightbox_video:hover .outer_circle {
+  stroke-dashoffset:410;
+    transition: stroke .7s .4s ease-out, stroke-dashoffset .4s ease-out
+  }
+  
+  .glightbox_video:hover 
+  .inner-circle {
+    fill: #BF2428;
+    transition:fill .4s .3s ease-out;
+    animation-play-state: running;
+  }
+  
+  .glightbox_video:hover
+  .play{
+      fill: white;
+    transition:fill .4s .3s ease-out;
+  } */
