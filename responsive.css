@@ -3,7 +3,7 @@
         max-width: 410px;
     }
     /* Nav */
-    nav, .nav-menu{
+    nav, .nav-menu,.header2{
         flex-direction: column;
     }
     .nav-menu{
@@ -34,11 +34,13 @@
         width: 90%;
         
     }
-
     .online-games{
         grid-template-columns: repeat(1, 1fr);
     }
-
+    .left-contents{
+        width: 95%;
+        text-align: center;
+    }
 
 
 
