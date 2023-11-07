@@ -42,6 +42,19 @@
         text-align: center;
     }
 
-
+    /* games */
+    .games{
+        width: 100px;
+    }
+    .games img{
+        width: 40%;
+    }
+    .games p{
+        font-size: 10px;
+    }
+    .game-features{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0;
+    }
 
 }
