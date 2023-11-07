@@ -1,0 +1,43 @@
+@media screen and (max-width: 412px) {
+    *{
+        max-width: 410px;
+    }
+    /* Nav */
+    nav, .nav-menu{
+        flex-direction: column;
+    }
+    .nav-menu{
+        gap: 25px;
+    }
+    .nav-menu a{
+        margin: 0 auto;
+        
+    }
+    
+    
+    /* Header */
+    .header{
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+    .header-left{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .header-left h1, h3{
+        text-align: center;
+    }
+    .header-left p{
+        font-size: 15px;
+    }
+    .header-right img{
+        width: 90%;
+        
+    }
+
+
+
+
+
+
+}
