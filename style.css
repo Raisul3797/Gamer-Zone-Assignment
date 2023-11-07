@@ -61,7 +61,7 @@ span{
     display: flex;
     justify-content: space-around;
 }
-.goat, .funny-videos{
+.goat, .funny-videos,.play-instant-title{
     font-weight: bolder;   
     font-size: 50px;
     background-image: linear-gradient(to top, rgb(249, 57, 127) , blueviolet);
@@ -133,7 +133,7 @@ span{
     border-radius: 25px;
     animation-play-state: paused;
 }
-figcaption,.left-para, .main-container-headings p{
+figcaption,.left-para, .main-container-headings p,.play-instant p{
     font-size: 15px;
 }
 
@@ -161,6 +161,46 @@ figcaption,.left-para, .main-container-headings p{
     width: 250px;
     /* */
 }
+
+/* play-instant-container */
+.play-instant-container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.play-instant{
+    width: 40%;
+}
+.features-img{ 
+    width: 50%; 
+    height: 400px;
+}
+.features-img > img{
+    width: 60%;
+    position: relative;
+    left: 200px;
+}
+.features-badge img{
+    width: 30%;
+}
+.features-badge{
+    /* width: 300px; */
+    padding: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    top: -180px;
+    left: 100px;
+    border-radius: 5px;
+}
+
+.play-instant{
+    text-align: center;
+}
+.play-instant-title{
+    font-size: 25px;
+}
+
 /*   
 figure a{
     position: absolute;
