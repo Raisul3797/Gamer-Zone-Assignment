@@ -1,11 +1,13 @@
 @media screen and (max-width: 412px) {
     *{
-        max-width: 412px;
+        max-width: 410px;
         /* margin: 0;
         padding: 0; */
     }
     /* Nav */
-    nav, .nav-menu,.header2,.footer-menu,.terms-condition{
+    nav, .nav-menu,.header2,.footer-menu,
+    .terms-condition
+    .play-instant-container{
         flex-direction: column;
     }
     .nav-menu{
@@ -43,7 +45,39 @@
         width: 95%;
         text-align: center;
     }
-
+    /* play instants */
+    .play-instant-container{
+        flex-direction: column;
+    }
+    .play-instant{
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+}
+.features-img{ 
+    width: 50%; 
+    height: 200px;
+    margin: 0 auto;
+   align-items: center;
+}
+.features-img > img{
+    width: 80%;
+    position: relative;
+    left: 30px;
+}
+.features-badge img{
+    width: 40%;
+}
+.features-badge{
+    /* width: 300px; */
+    padding: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    top: -85px;
+    left: -15px;
+    border-radius: 5px;
+}
     /* games */
     .games{
         width: 100px;
