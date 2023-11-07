@@ -1,11 +1,11 @@
 @media screen and (max-width: 412px) {
     *{
-        max-width: 410px;
+        max-width: 412px;
         /* margin: 0;
         padding: 0; */
     }
     /* Nav */
-    nav, .nav-menu,.header2{
+    nav, .nav-menu,.header2,.footer-menu,.terms-condition{
         flex-direction: column;
     }
     .nav-menu{
@@ -59,4 +59,20 @@
         gap: 0;
     }
 
+    /* Footer Menu */
+    footer,.footer-title{
+        max-width: 418px;
+    }
+    .footer-menu{
+        /* align-items: center; */
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-icons{
+        margin: 0 auto;
+    }
+    .terms-condition{
+        max-width: 410px;
+        align-items: center;
+    }
 }

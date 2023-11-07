@@ -133,7 +133,10 @@ span{
     border-radius: 25px;
     animation-play-state: paused;
 }
-figcaption,.left-para, .main-container-headings p,.play-instant p{
+figcaption,.left-para,
+ .main-container-headings p,
+ .play-instant p,
+ .terms-condition{
     font-size: 15px;
 }
 
@@ -201,6 +204,36 @@ figcaption,.left-para, .main-container-headings p,.play-instant p{
     font-size: 25px;
 }
 
+/* footer styles */
+footer{
+    background-color: rgb(13, 13, 82);
+}
+footer, .game-features{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+.footer-title,.terms-condition{
+    display: flex;
+    justify-content: center;
+}
+.left-para,.fa-brands{
+    color: white;
+}
+.footer-menu, .footer-icons,.terms-condition{
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    /* align-items: center; */
+}
+.footer-icons{
+    max-width: 500px;
+    margin-top: 20px;
+}
+.terms-condition{
+    max-width: 500px;
+}
 /*   
 figure a{
     position: absolute;
