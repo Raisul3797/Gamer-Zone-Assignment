@@ -135,6 +135,7 @@ span{
     animation-play-state: paused;
 }
 figcaption,.left-para,
+.left-contents p,
  .main-container-headings p,
  .play-instant p,
  .terms-condition,
