@@ -1,7 +1,7 @@
 *{
     font-family: 'Mooli', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 /* Navigation Styles */
 
@@ -230,6 +230,12 @@ footer{
 }
 .left-para,.fa-brands{
     color: white;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-tiktok{
+    color: blue;
 }
 .footer-menu, .footer-icons,.terms-condition{
     width: 600px;
